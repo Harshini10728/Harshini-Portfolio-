@@ -1,0 +1,39 @@
+.custom-nav {
+    background-color: rgb(247, 5, 247);
+    padding: 10px 10px;
+}
+
+.custom-nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: blueviolet;
+}
